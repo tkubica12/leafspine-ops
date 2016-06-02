@@ -1,0 +1,9 @@
+[leafs]
+leaf1 ansible_host=172.18.0.2 ansible_port=22
+leaf2 ansible_host=172.18.0.3 ansible_port=22
+leaf3 ansible_host=172.18.0.4 ansible_port=22
+leaf4 ansible_host=172.18.0.5 ansible_port=22
+
+[spines]
+spine1 ansible_host=172.18.0.6 ansible_port=22
+spine2 ansible_host=172.18.0.7 ansible_port=22
