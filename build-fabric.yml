@@ -12,3 +12,7 @@
 
     - name: Ensure ports setup is correct
       include: tasks/set-ports.yml
+
+# future
+#    - name: Ensure BGP is configured
+#      include: tasks/set-bgp.yml
