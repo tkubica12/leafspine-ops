@@ -11,7 +11,7 @@ switches:
       - name: 1
         ipv4_address: 10.1.0.1/30
       - name: 2
-        ipv4_address: 10.2.0.1/30
+        ipv4_address: 10.2.99.1/30
     ops_vrfs:
       - name: vrf_default
         router_id: 192.168.0.1
@@ -22,7 +22,7 @@ switches:
             neighbors:
               - address: 10.1.0.2
                 remote_as: 65101
-              - address: 10.2.0.2
+              - address: 10.2.99.2
                 remote_as: 65102
   leaf2:
     ops_interfaces:
@@ -137,7 +137,7 @@ switches:
       - name: lo1
         ipv4_address: 192.168.1.2/32
       - name: 1
-        ipv4_address: 10.2.0.2/30
+        ipv4_address: 10.2.99.2/30
       - name: 2
         ipv4_address: 10.2.1.2/30
       - name: 3
@@ -151,7 +151,7 @@ switches:
             router_id: 192.168.1.2
             networks: [192.168.1.2/32]
             neighbors:
-              - address: 10.2.0.1
+              - address: 10.2.99.1
                 remote_as: 65001
               - address: 10.2.1.1
                 remote_as: 65002
