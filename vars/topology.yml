@@ -151,7 +151,7 @@ switches:
             router_id: 192.168.1.2
             networks: [192.168.1.2/32]
             neighbors:
-              - address: 10.2.0.1
+              - address: 10.2.99.1
                 remote_as: 65001
               - address: 10.2.1.1
                 remote_as: 65002
